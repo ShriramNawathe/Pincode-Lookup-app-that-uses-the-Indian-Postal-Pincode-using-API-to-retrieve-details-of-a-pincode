@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+/* finder */
+.k{
+    margin: 20px;
+}
+/* pinf */
+.pf{
+    display: flex;
+    flex-direction: column;
+}
+/* pf btn */
+.pf button{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+/* pf input */
+.pf input{
+    padding: 10px;
+}
+/* pf ele */
+.pf .box{
+    margin-bottom: 10px;
+}
+/* end */
+.hide{
+    display: none;
+}
+/* f action */
+.t{
+    display: flex;
+    flex-direction: column;
+}
+/* fac ele */
+.t .box{
+    margin-bottom: 10px;
+}
+/* fac btn */
+.t button{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+/* fact input */
+.t input{
+    padding: 10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.container div{
+    padding: 5px;
+    
+}
+/* item */
+.item{
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 45%;
+    padding: 10px;
+}
+.item:hover{
+    border:5px solid red;
+    color: white;
+    background-color: black;
+}
+/* div:hover{
+    border:2px solid red;
+    color: black;
+    background-color: white;
+} */
